@@ -1,11 +1,11 @@
 import "./App.css";
-import StudyGoals from "./components/study-goals-section/study-goals";
+import DevPlan from "./components/Development Plan/dev-plan";
 
 function App() {
   return (
   <div className="App">
     <div className="m-12">hello</div>
-    <StudyGoals />
+    <DevPlan />
   </div>
   );
 }

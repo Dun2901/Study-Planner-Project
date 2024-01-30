@@ -1,6 +1,6 @@
-import "./study-goals.css";
+import "./dev-plan.css";
 
-function StudyGoals() {
+function DevPlan() {
     return (
         <div>
           <table>
@@ -25,4 +25,4 @@ function StudyGoals() {
     );
 }
 
-export default StudyGoals;
+export default DevPlan;
