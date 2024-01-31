@@ -1,0 +1,10 @@
+.study-goal-section {
+    margin-left: 50px;
+}
+.goal-box {
+    background: #E933FF;
+    width: 100px;
+    height: 100px;
+    text-wrap: wrap;
+    margin-left: 50px;
+}
