@@ -1,10 +1,21 @@
 .study-goal-section {
-    margin-left: 50px;
+    text-align: center;
+}
+.title {
+    font-size: larger;
+}
+.first-box {
+    background: #E933FF;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
 }
 .goal-box {
     background: #E933FF;
-    width: 100px;
-    height: 100px;
-    text-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    text-align: center;
     margin-left: 50px;
+    margin-top: 50px;
 }
