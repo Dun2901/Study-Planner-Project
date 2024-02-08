@@ -6,10 +6,10 @@ function StudyGoal() {
             <div className="title">Study Goals</div>
             <div>
             {/*have 4 boxes as default*/}
-                <input className="first-box"/>
-                <input className="goal-box"/>
-                <input className="goal-box"/>
-                <input className="goal-box"/>
+                <textarea className="first-box"/>
+                <textarea className="goal-box"/>
+                <textarea className="goal-box"/>
+                <textarea className="goal-box"/>
             </div>
         </div>
     );

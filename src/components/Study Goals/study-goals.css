@@ -1,21 +1,30 @@
 .study-goal-section {
     text-align: center;
+    font-weight: bold;
 }
 .title {
     font-size: larger;
 }
 .first-box {
-    background: #E933FF;
+    background: #dfa9e6;
+    border-width: initial;
+    border-color: black;
+    overflow-wrap: break-word;
     width: 150px;
     height: 150px;
     text-align: center;
     margin-top: 50px;
+    resize: none;
 }
 .goal-box {
-    background: #E933FF;
+    background: #dfa9e6;
+    border-width: initial;
+    border-color: black;
+    overflow-wrap: break-word;
     width: 150px;
     height: 150px;
     text-align: center;
     margin-left: 50px;
     margin-top: 50px;
+    resize: none;
 }
