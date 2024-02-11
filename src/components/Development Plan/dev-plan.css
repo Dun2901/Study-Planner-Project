@@ -1,3 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 .table, th, td {
-    border: 1px solid black;
+    border: 3px ridge lightslategrey;
+    padding: 0px 30px 3px 30px;
+    border-collapse: collapse;
+    text-align: center;
 }
