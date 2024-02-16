@@ -16,3 +16,12 @@ body {
     border-collapse: collapse;
     text-align: center;
 }
+.create-button {
+    background-color: #F7A65A;
+    padding: 5px 5px 5px 5px;
+    border-color: black;
+    border-radius: 7px;
+    border-width: 1px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}

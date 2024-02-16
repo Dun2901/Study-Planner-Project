@@ -1,11 +1,20 @@
 import "./dev-plan.css";
 
 function DevPlan() {
+    // const addRow = function() {
+    //   var table = document.getElementById("devPlan");
+    //   var row = table.insertRow(table.rows.length);
+    //   var cell1 = row.insertCell(0);
+    //   var cell2 = row.insertCell(1);
+    //   cell1.innerHTML = "New Row Data 1";
+    //   cell2.innerHTML = "New Row Data 2";
+    // }
     return (
         <div>
           <div className="title">Development Plan</div>
+          <button class="create-button" onclick={"addRow()"}>Create New Plan</button>
           <body>
-            <table>
+            <table id="devPlan">
               <thead>
                 <tr>
                   <th>Nhiệm Vụ</th>
