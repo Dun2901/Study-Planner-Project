@@ -12,7 +12,11 @@ function DevPlan() {
     return (
         <div>
           <div className="title">Development Plan</div>
-          <button class="create-button" onclick={"addRow()"}>Create New Plan</button>
+          <div>
+            <button className="create-button" onclick={"addRow()"}>Create New Plan</button>
+            <button className="edit-button">Edit Plan</button>
+          </div>
+          
           <body>
             <table id="devPlan">
               <thead>
